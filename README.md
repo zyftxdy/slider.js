@@ -1,6 +1,7 @@
 # -JQuery-
 一个简易的JQuery手风琴插件
 # 使用方法
+ 引用Jquery类库<br>
  $('#slider').slider({})<br>
  传入对象参数\<br>
  {SliderWidth,SliderHeight,Width}<br>
