@@ -2,7 +2,7 @@
 一个简易的JQuery手风琴插件
 # 使用方法
  1.引用slider.css文件<br>
- 2.页面结构如下	
+ 2.页面结构如下(SliderText可视情况删除)	
  
  ```hmtl
 <div id="slider">
