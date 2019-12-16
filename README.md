@@ -5,10 +5,9 @@
  2.页面结构如下	
  
  ```javaScript
- <div id="slider">
- ```
-     <ul>
-       <li>
+<div id="slider">
+   <ul>
+      <li>
         <div class="slide">
          <img src="img/01.jpg" alt=""/>
          <div class="slideText">
@@ -18,12 +17,13 @@
             4500mAh+27W快充 / 多功能NFC</p>
          </div>
         </div>
-       </li>
-     </ul>
-		</div>
- 1.引用Jquery类库<br>
- 2.引用slider.js或者slider.min.js<br>
- 3.$('#slider').slider({})<br>
+      </li>
+    </ul>
+</div>
+```
+ 3.引用Jquery类库<br>
+ 4.引用slider.js或者slider.min.js<br>
+ 5.$('#slider').slider({})<br>
    传入对象参数\<br>
    {SliderWidth,SliderHeight,Width}<br>
    SliderWidth -- 外层盒子的宽度<br>
