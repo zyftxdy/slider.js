@@ -31,17 +31,17 @@
    * js插件调用如下:
    ```javascript
    <script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
-	  <script src="js/slider.min.js" type="text/javascript" charset="utf-8"></script>
-	  <script type="text/javascript">
-	      	$(function(){
-			       $('#slider').silder({
+   <script src="js/slider.min.js" type="text/javascript" charset="utf-8"></script>
+   <script type="text/javascript">
+	$(function(){
+	   $('#slider').silder({
              SliderWidth:600,
              SliderHeight:250,
              width:35
-			       });
-		      })
-	  </script>
+           });
+	})
+   </script>
    ```
 
-# --------------
- 后续不断优化<br>
+# 
+ 后续不断优化
