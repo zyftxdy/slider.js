@@ -23,12 +23,25 @@
 ```
  3.引用Jquery类库<br>
  4.引用slider.js或者slider.min.js<br>
- 5.$('#slider').slider({})<br>
-   传入对象参数\<br>
+ 5.传入object对象参数(默认参数为SliderWidth:800,SliderHeight:350,Width:50)<br>
    {SliderWidth,SliderHeight,Width}<br>
-   SliderWidth -- 外层盒子的宽度<br>
-   SliderHeight -- 外层盒子的高度<br>
-   Width  --手风琴效果实现后其余li的宽度<br>
+   * SliderWidth -- 外层盒子的宽度
+   * SliderHeight -- 外层盒子的高度
+   * Width  --手风琴效果实现后其余li的宽度
+   * js插件调用如下:
+   ```javascript
+   <script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	  <script src="js/slider.min.js" type="text/javascript" charset="utf-8"></script>
+	  <script type="text/javascript">
+	      	$(function(){
+			       $('#slider').silder({
+             SliderWidth:600,
+             SliderHeight:250,
+             width:35
+			       });
+		      })
+	  </script>
+   ```
 
 # --------------
  后续不断优化<br>
